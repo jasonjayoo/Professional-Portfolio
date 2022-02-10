@@ -1,5 +1,4 @@
 body {
-    /* background-image: linear-gradient(to top right, #007adf 10%, #22d4b1 100%); */
     background-image: linear-gradient(to top right, #C5C5C5 10%, #E5E5E5 100%);
 }
 
@@ -70,8 +69,6 @@ html {
     color: rgb(90, 65, 3);
 }
 
-
-
 #weatherdash h2 {
 	padding-top: 40px;
     padding-bottom: 5px;
@@ -84,7 +81,6 @@ html {
 
 #weatherdashboard {
 	border-radius: 15px;
-    /* min-height: 50vh; */
     width: 100%;
 }
 
@@ -110,7 +106,6 @@ html {
 
 #codequiz {
 	border-radius: 15px;
-    /* max-height: 50vh; */
     width: 100%;
 }
 
@@ -126,7 +121,7 @@ html {
 
 
 .container {
-	width: 100vw;
+	/* width: 100vw; */
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -171,7 +166,7 @@ html {
 	background-color: rgb(31, 30, 30);
 	width: 100vw;
 	height: 100vh;
-	left: 100%;
+	left: 1000%;
 	top: 0;
 	display: flex;
 	flex-direction: column;
@@ -181,6 +176,7 @@ html {
 	overflow-x: hidden;
 	transition: 0.5s ease left;
 }
+
 #header .nav-list ul.active {
 	left: 0%;
 }
@@ -382,12 +378,12 @@ html {
 
 /* End Keyframes */
 
-/* #contact .contact {
-	flex-direction: column;
-	max-width: 1200px;
-	margin: 0 auto;
-	width: 90%;
+/* #calstatefullerton {
+	width: 30vw;
+	height: 50vh
 } */
+
+
 .img2 {
 	height: 55%
 }
@@ -426,6 +422,7 @@ html {
 	display: grid;
 	align-items: center;
 	justify-content: space-evenly;
+	/* justify-items: center; */
 }
 
 .contact-item {
@@ -514,5 +511,203 @@ html {
 		font-size: 48.5px;
 	}
 	
+}
+
+@media only screen and (max-width: 851px) {
+
+	#weatherdashboard {
+		width: 95%;
 	}
+
+	#codequiz {
+		width: 95%;
+	}
+
+	.img2 {
+		height: 45%
+	}
+
+	#weatherdash h2{
+		font-size: 49.5px;
+	}
+	
+}
+
+@media only screen and (max-width: 781px) {
+
+	#codingquiz h2{
+		font-size: 48.5px;
+	}
+	
+}
+
+@media only screen and (max-width: 768px) {
+
+	#weatherdash p {
+		max-width: 100%;
+	}
+
+	#codingquiz p {
+		max-width: 100%;
+	}
+
+	.contact-item {
+		margin: 12%;
+		padding: 25px;
+		padding-top: 40px;
+	}
+
+	.contact-columns {
+		display: grid;
+		align-items: center;
+		justify-content: space-evenly;
+		justify-items: center;
+	}
+
+	.brand h1 {
+		font-size: 2rem;
+	}
+
+	.brand h1 span {
+		padding-left: 5px;
+	}
+
+	#project-one {
+		max-height: 150vh;
+		width: 35vw;
+	}
+}
+
+
+/* iphone 12 - Media Queries*/
+@media only screen and (max-width: 850px) {
+
+	#header .hamburger {
+
+		margin-right: 2px;
+	}
+
+	.brand h1 {
+		font-size: 1.9rem;
+	}
+
+	
+	#hero .hero {
+		padding-top: 80px;
+	}
+
+	#hero h1 {
+		
+		font-size: 5px;
+	}
+	
+	#personalInfo p {
+		max-width: 100%;
+	}
+
+	#foodforthought h2 {
+		font-size: 35px;
+	}
+	
+	#foodforthought p {
+		max-width: 100%;
+	}
+
+	#project-one {
+		max-height: 200vh;
+		width: 65vw;
+	}
+
+	#weatherdashboard {
+		max-height: 100%;
+		max-width: 100%;
+	}
+
+	.contact-item {
+		width: 100%;
+		padding: 50px;
+	}
+
+}
+
+
+@media only screen and (max-width: 550px ) {
+	@keyframes text_reveal {
+		100% {
+			color: gold;
+			font-family: Garamond, Tahoma, sans-serif;
+			font-size: 35px;
+		}
+	}
+	
+@keyframes text_reveal_name {
+		100% {
+			color: whitesmoke;
+			font-family: Garamond, Tahoma, sans-serif;
+			font-size: 25px;
+		}
+	}
+}
+
+@media only screen and (max-width: 390px ) {
+	@keyframes text_reveal {
+		100% {
+			color: gold;
+			font-family: Garamond, Tahoma, sans-serif;
+			font-size: 30px;
+		}
+	}
+	
+@keyframes text_reveal_name {
+		100% {
+			color: whitesmoke;
+			font-family: Garamond, Tahoma, sans-serif;
+			font-size: 20px;
+		}
+	}
+}
+
+/* Galaxy Fold - Media Queries - Smallest Size Screen */
+
+@media only screen and (max-width: 387px) {
+
+	#header .hamburger {
+
+		margin-right: -5px;
+	}
+
+	.brand h1 {
+		font-size: 1.2rem;
+	}
+
+	#personalInfo p {
+		font-size: 15px;
+	}
+
+	#foodforthought h2 {
+		font-size: 30px;
+	}
+	
+	#foodforthought p {
+		font-size: 15px;
+	}
+
+	#weatherdash h2 {
+		font-size: 30px;
+	}
+
+	#weatherdash p {
+		font-size: 15px;
+	}
+
+	#codingquiz h2 {
+		font-size: 30px;
+	}
+
+	#codingquiz p {
+		font-size: 15px;
+	}
+}
+
+
 /* End of Media Queries */
