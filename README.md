@@ -75,6 +75,16 @@ Even numbered week homework assignment. Update Profession Portfolio to include F
 <img src="images/Screenshot7.png">
 
 <br>
+
+[Screenshot8](images/Screenshot8.png)  "Hamburger Nav Bar Replaces Regular Nav Bar at smaller screen size"
+<img src="images/Screenshot8.png">
+
+<br>
+
+[Screenshot9](images/Screenshot9.png)  "Hamburger Nav Bar Expanded"
+<img src="images/Screenshot9.png">
+
+<br>
 <br>
 
 

@@ -1,3 +1,5 @@
+// variables for hamburger nav bar
+
 let hamburger = document.querySelector('.header .nav-bar .nav-list .hamburger');
 let mobile_menu = document.querySelector('.header .nav-bar .nav-list ul');
 let menu_item = document.querySelectorAll('.header .nav-bar .nav-list ul li a');
@@ -17,6 +19,7 @@ menu_item.forEach((item) => {
 	});
 });
 
+// moment js for displaying date and time set to 5 second interval of updating
 $('#date').text(moment().format('LLLL'));
 
 function refresh(){

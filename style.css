@@ -1,14 +1,16 @@
+/* body color specs */
 body {
     background-image: linear-gradient(to top right, #C5C5C5 10%, #E5E5E5 100%);
 }
 
-
+/* main font specs */
 html {
 	font-size: 10px;
 	font-family: monospace;
 	scroll-behavior: smooth;
 }
 
+/* about section specs */
 #about {
     font-size: 50px;
     font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -16,6 +18,7 @@ html {
     text-align: center;
 }
 
+/* personal information specs */
 #personalInfo h2 {
     padding-top: 40px;
     font-size: 50px;
@@ -43,7 +46,9 @@ html {
     color: rgb(90, 65, 3);
 }
 
+/* End of personal information specs */
 
+/* CSUF EDU specs */
 #csuf h2 {
     padding-top: 40px;
     padding-bottom: 5px;
@@ -55,7 +60,6 @@ html {
 }
 
 #calstatefullerton {
-   /* border-radius: 15px; */
     max-height: 100vh;
     width: 55%;
 }
@@ -69,8 +73,9 @@ html {
     max-width: 50vw;
     color: rgb(90, 65, 3);
 }
+/* End of CSUF EDU specs */
 
-
+/* UCI EDU specs */
 #uci h2 {
 	padding-top: 40px;
     padding-bottom: 5px;
@@ -97,8 +102,9 @@ html {
     color: rgb(90, 65, 3);
 }
 
+/* End of UCI EDU specs */
 
-
+/* Project One specs */
 #foodforthought h2 {
     padding-top: 40px;
     padding-bottom: 5px;
@@ -125,6 +131,9 @@ html {
     color: rgb(90, 65, 3);
 }
 
+/* End of Project One specs */
+
+/* Additional Works Specs - Weather Dash */
 #weatherdash h2 {
 	padding-top: 40px;
     padding-bottom: 5px;
@@ -150,6 +159,9 @@ html {
     color: rgb(90, 65, 3);
 }
 
+/* Additional Works Specs - End Weather Dash */
+
+/* Additional Works Specs - Coding Quiz */
 #codingquiz h2{
 	padding-top: 40px;
     padding-bottom: 5px;
@@ -175,6 +187,10 @@ html {
     color: rgb(90, 65, 3);
 }
 
+/* Additional Works Specs - End of Coding Quiz */
+
+
+/* Additional Works Specs - Day Planner */
 #dayPlanner h2 {
 	padding-top: 40px;
     padding-bottom: 5px;
@@ -201,6 +217,10 @@ html {
     color: rgb(90, 65, 3);
 }
 
+/* Additional Works Specs - End of Day Planner */
+
+
+/* Additional Works Specs - Password Generator*/
 #passwordGenerator h2{
 	padding-top: 40px;
     padding-bottom: 5px;
@@ -227,18 +247,23 @@ html {
     color: rgb(90, 65, 3);
 }
 
+/* Additional Works Specs - End of Password Generator*/
+
+/* class of container specs */
 .container {
-	/* width: 100vw; */
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
 
+/* Nav Bar Specs */
 .brand h1 {
 	font-size: 3rem;
 	text-transform: uppercase;
 	color: white;
 }
+
+/* Top left of nav bar specs */
 .brand h1 span {
 	color: palegoldenrod;
     padding-left: 25px;
@@ -270,7 +295,7 @@ html {
 #header .nav-list ul {
 	list-style: none;
 	position: absolute;
-	background-color: rgb(31, 30, 30);
+	background-color: #999999;
 	width: 100vw;
 	height: 100vh;
 	left: 1000%;
@@ -372,6 +397,7 @@ html {
 }
 /* End Header section */
 
+
 /* Hero Section */
 #hero {
     background-color: #708090;
@@ -438,6 +464,7 @@ html {
 #hero h1:nth-child(3) span {
 	animation-delay: 2.5s;
 }
+/*  End of Hero Section */
 
 
 /* Keyframes */
@@ -485,19 +512,23 @@ html {
 
 /* End Keyframes */
 
+/* date and time custom specs */
 #date {
 	font-size: 2em;
 	color: rgb(83, 54, 212)
 }
 
+/* img for additional works specs */
 .img2 {
 	height: 55%
 }
 
+/* padding between project one and additional works section */
 #more-works {
 	padding-top: 100px;
 }
 
+/* Contact Section*/
 .section-title {
     padding-top: 200px;
 	font-size: 4rem;
@@ -528,22 +559,13 @@ html {
 	display: grid;
 	align-items: center;
 	justify-content: space-evenly;
-	/* justify-items: center; */
 }
 
 .contact-item {
-	
-	
-	/* text-align: center; */
 	border-radius: 10px;
 	padding: 50px;
 	margin: 2%;
 	width: 18vw;
-	/* margin: 15px; */
-	/* display: flex; */
-	/* justify-content: center;
-	align-items: center;
-	flex-direction: column; */
 	box-shadow: 0px 0px 8px 3px #0000002c;
 	transition: 0.3s ease box-shadow;
 }
@@ -570,13 +592,8 @@ html {
 	font-weight: 500;
 } 
 
-.workdayplanner h2 {
-	color: black
-}
+/* End of Contact Specs  */
 
-.pwgen h2 {
-	color: black
-}
 
 /* Media Query For Desktop */
 @media only screen and (min-width: 1216px) {
@@ -605,10 +622,10 @@ html {
 		flex-basis: 22%;
 		margin: 1.5%;
 	}
-
-
 }
+/* End Media Query for Desktop */
 
+/* Specs for 821px for weatherdash h2 and uci paragraph  */
 @media only screen and (max-width: 821px) {
 
 #weatherdash h2{
@@ -621,6 +638,8 @@ html {
 
 }
 
+/* specs for weatherdash h2 */
+
 @media only screen and (max-width: 813px) {
 
 	#weatherdash h2{
@@ -629,6 +648,7 @@ html {
 	
 }
 
+/* specs for screen size 851px and smaller */
 @media only screen and (max-width: 851px) {
 
 	#weatherdashboard {
@@ -664,6 +684,7 @@ html {
 	}
 }
 
+/* specs for date & time for when date & time looks better centered depending on screen size */
 @media only screen and (max-width: 1170px) {
 
 .time {
@@ -676,6 +697,7 @@ html {
 
 }
 
+/* specs for password generator h2 @ 929px */
 @media only screen and (max-width: 929px) {
 	
 	#passwordGenerator h2 {
@@ -684,6 +706,7 @@ html {
 
 }
 
+/* specs for password generator h2 @ 920px */
 @media only screen and (max-width: 920px) {
 	
 	#passwordGenerator h2 {
@@ -692,6 +715,7 @@ html {
 
 }
 
+/* specs for password generator h2 @ 914px */
 @media only screen and (max-width: 914px) {
 	
 	#passwordGenerator h2 {
@@ -700,6 +724,8 @@ html {
 
 }
 
+
+/* specs for uci paragraph @ 912px */
 @media only screen and (max-width: 912px) {
 
 #uci p{
@@ -707,7 +733,7 @@ html {
 }
 }
 
-
+/* specs for password generator h2 @ 910px */
 @media only screen and (max-width: 910px) {
 	
 	#passwordGenerator h2 {
@@ -716,6 +742,7 @@ html {
 
 }
 
+/* specs for password generator h2 @ 901px */
 @media only screen and (max-width: 901px) {
 	
 	#passwordGenerator h2 {
@@ -724,6 +751,7 @@ html {
 
 }
 
+/* specs for password generator h2 @ 892px */
 @media only screen and (max-width: 892px) {
 	
 	#passwordGenerator h2 {
@@ -732,6 +760,8 @@ html {
 
 }
 
+
+/* specs for password generator h2 @ 883px - what a pain right?? */
 @media only screen and (max-width: 883px) {
 	
 	#passwordGenerator h2 {
@@ -740,6 +770,7 @@ html {
 
 }
 
+/* specs for password generator h2 @ 874px */
 @media only screen and (max-width: 874px) {
 	
 	#passwordGenerator h2 {
@@ -748,7 +779,7 @@ html {
 
 }
 
-
+/* specs for password generator h2 @ 857px - seriously though? wow... */
 @media only screen and (max-width: 857px) {
 	
 	#passwordGenerator h2 {
@@ -757,7 +788,7 @@ html {
 
 }
 
-
+/* coding quiz h2 specs for under 781px */
 @media only screen and (max-width: 781px) {
 
 	#codingquiz h2{
@@ -766,6 +797,7 @@ html {
 	
 }
 
+/* Specs for multiple elements at 768px screen size */
 @media only screen and (max-width: 768px) {
 
 
@@ -863,7 +895,7 @@ html {
 
 }
 
-
+/* Key Frames Media Queries */
 @media only screen and (max-width: 550px ) {
 	@keyframes text_reveal {
 		100% {
