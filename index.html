@@ -17,8 +17,10 @@
             <div class="brand">
               <a href="#hero">
                 <h1><span>Web Developer - Jason Yoo </h1>
+                
               </a>
             </div>
+
             <div class="nav-list">
               <div class="hamburger">
                 <div class="bar"></div>
@@ -26,6 +28,7 @@
               <ul>
                 
                 <li><a href="#about" data-after="About">About</a></li>
+                <li><a href="#edu" data-after="edu">Edu</a></li>
                 <li><a href="#works" data-after="Works">My Portfolio</a></li>
                 <li><a href="#more-works" data-after=>More+</a></li>
                 <li><a href="#contact" data-after="Contact">Contact</a></li>
@@ -43,7 +46,9 @@
           
         </div>
       </section>
-
+      <div class="time">
+        <p><span id="date"></span></p>
+      </div>
 <!-- About Me Section - Introduction -->
       <section class="section" id="about">
           <div class="container">
@@ -55,7 +60,7 @@
                       <img src="images/JasonYoo.jpg" alt="Photo of Jason Yoo" title="Photo of Jason Yoo" id="profile-image">
 
                       <p>
-                       Hi! My name is Jason Yoo. I am from Southern California. I presently reside in Orange County, CA. I am a dedicated and highly motivated individual who is working towards successfully entering into the expansive field of web development. I am currently attending UCI's Full Stack Web Development Program through their continuing education department. I am well versed in HTML5, CSS3 - Multiple CSS Frameworks, and JavaScript (+ JQuery). Please check out my journey into the next chapter of my most unordinary life.
+                       Hi! My name is Jason Yoo. I am from Southern California. I presently reside in Orange County, CA. I am a dedicated and highly motivated individual who is working towards successfully entering into the expansive field of web development. I am currently attending UCI's Full Stack Web Development Program through their continuing education department. I am well versed in HTML5, CSS3 - Multiple CSS Frameworks, and JavaScript (+ JQuery). Please check out my progress as I journey into the next chapter of my most unordinary life. 
                       </p>
                   </div>
               </div>
@@ -63,30 +68,72 @@
       </section>
 
 <!-- Main Project Section  -->
-      <section class="section" id="works">
+      <section class="section" id="edu">
         <div class="container">
             <div class="columns is-vcentered">
 
-                <div class="column is-12 has-text-centered" id="foodforthought">
-                    <h2>Food For Thought</h2>
+                <div class="column is-6 has-text-centered" id="csuf">
+                    <h2>CSUF</h2>
                     <h4>(click the image below to view the site)</h4>
                   
-                    <a href="https://jasonjayoo.github.io/Our-Project-1/" alt="Food For Thought Web Application" Title="This is a link to " target="_blank">
+                    <a href="https://www.fullerton.edu/" alt="CSUF Website" Title="This is a link to " target="_blank">
 
-                    <img src="images/foodforthought.png" alt="Food For Thought Project" title="Food For Thought Project" id="project-one">
+                    <img src="images/CSUF.png" alt="Cal State Fullerton" title="Cal State Fullerton" id="calstatefullerton">
                     </a>
 
                     <p>
-                     This application was created for foodies with busy schedules, that are searching for easy to find recipes for ingredients they have in their homes. 
+                     I received my undergrad from the California State University of Fullerton [B.A. History, minor in Asian American Studies].
                     <hr>
                     <p>
-                     HTML5, CSS3 + (Bulma Framework), & JavaScript was implemented in the development of this web application. <br>
-                     [Adapted For Mobile Devices]
+                     I am a proud member of the Collegiate Historical Honor Society - Phi Alpha Theta
                     </p>
-                </div>
+                  </div>
+                    <div class="column is-6 has-text-centered" id="uci">
+                      <h2>UC Irvine</h2>
+                      <h4>(click the image below to view the site)</h4>
+                    
+                      <a href="https://ce.uci.edu/" alt="UCI continuing Edu" Title="This is a link to " target="_blank">
+  
+                      <img src="images/UCI.jpg" alt="UC Irvine" title="UC Irvine" id="uCIrvine">
+                      </a>
+  
+                      <p>
+                       I am currently attending the Full Stack Flex Web Development Coding Program though the University of Califorina, Irvine Dept of continuing education.
+                      <hr>
+                      <p>
+                      I am proficient in HTML5, CSS3 (+ Multiple CSS Frameworks), JavaScript and (JQuery).
+                      </p>
+                  </div>
+                
             </div>
         </div>
     </section>
+
+    <!-- Main Project Section  -->
+    <section class="section" id="works">
+      <div class="container">
+          <div class="columns is-vcentered">
+
+              <div class="column is-12 has-text-centered" id="foodforthought">
+                  <h2>Food For Thought</h2>
+                  <h4>(click the image below to view the site)</h4>
+                
+                  <a href="https://jasonjayoo.github.io/Our-Project-1/" alt="Food For Thought Web Application" Title="This is a link to " target="_blank">
+
+                  <img src="images/foodforthought.png" alt="Food For Thought Project" title="Food For Thought Project" id="project-one">
+                  </a>
+
+                  <p>
+                   This application was created for foodies with busy schedules, that are searching for easy to find recipes for ingredients they have in their homes. 
+                  <hr>
+                  <p>
+                   HTML5, CSS3 + (Bulma Framework), & JavaScript was implemented in the development of this web application. <br>
+                   [Adapted For Mobile Devices]
+                  </p>
+              </div>
+          </div>
+      </div>
+  </section>
 
     <section class="section" id="more-works">
       <div class="container">
@@ -127,6 +174,45 @@
       </div>
     </section>
 
+    <section class="section" id="more-works">
+      <div class="container">
+        <div class="columns">
+          
+          <div class="column is-6 has-text-centered" id="dayPlanner">
+            <h2> Work Day Planner</h2>
+            <h4>(click the image below to view the site)</h4>
+          
+            <a href="https://jasonjayoo.github.io/The-Work-Day-Planner/" alt="Work Day Planner" Title="This is a link to " target="_blank">
+
+            <img src="images/workdayplanner.png" alt="Work Day Planner" title="Work Day Planner" class="img2" id="workDayPlanner">
+            </a>
+            <hr>
+            <p>
+             The Work Day Scheduler allows you to plan out your work day between 9am - 5pm. The events are color coded depending on the time of day and if the event has passed, is still taking place or in the future.  
+             <br>
+             [Adapted For Mobile Devices]
+             </p>
+          </div>
+
+          <div class="column is-6 has-text-centered" id="passwordGenerator">
+            <h2>PW Generator</h2>
+            <h4>(click the image below to view the site)</h4>
+          
+            <a href="https://jasonjayoo.github.io/password-generator/" alt="Password Generator" Title="This is a link to " target="_blank">
+
+            <img src="images/passwordgenerator.png" alt="Password Generator" title="Password Generator" class="img2" id="pwgen">
+            </a>
+            <hr>
+            <p>
+              The password generator allows you to create a randomly generated password between 5-128 characters, with upper & lower case alphabet characters, numbers & special characters.
+             <br>
+             [Adapted For Mobile Devices]
+             </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
     
     <section class="section" id="contact">
       <div>
@@ -145,7 +231,7 @@
             </div>
           </div> -->
 
-          <div class="column is-4 has-text-centered contact-item" id="contact-item">
+          <div class="column is-3 has-text-centered contact-item" id="contact-item">
             <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/resume.png" /></div>
             <div class="contact-info">
               <h1>Resume</h1>
@@ -154,8 +240,16 @@
 
           </div>
 
+          <div class="column is-3 has-text-centered contact-item" id="contact-item">
+            <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/github.png" /></div>
+            <div class="contact-info">
+              <h1>Github</h1>
+              <h2><a href="https://github.com/jasonjayoo" alt="Jason Yoo's github repository page" title="This is a link to my resume page" target="_blank"><span id="green">Github</span></a></h2>
+            </div>
+
+          </div>
          
-          <div class="column is-4 has-text-centered contact-item" id="contact-item">
+          <div class="column is-3 has-text-centered contact-item" id="contact-item">
             <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/new-post.png" /></div>
             <div class="contact-info">
               <h1>Email</h1>
@@ -165,7 +259,7 @@
             </div>
           </div>
 
-          <div class="column is-4 has-text-centered contact-item" id="contact-item">
+          <div class="column is-3 has-text-centered contact-item" id="contact-item">
             <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/linkedin.png" /></div>
             <div class="contact-info">
               <h1>Linkedin</h1>
@@ -177,7 +271,8 @@
       </div>
     </section>
 
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
     <script src="./script.js"></script>
 </body>
 </html>

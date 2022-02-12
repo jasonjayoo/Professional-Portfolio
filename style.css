@@ -43,6 +43,62 @@ html {
     color: rgb(90, 65, 3);
 }
 
+
+#csuf h2 {
+    padding-top: 40px;
+    padding-bottom: 5px;
+    font-size: 50px;
+    color: rgb(218, 158, 81);
+    font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 450;
+    text-align: center;
+}
+
+#calstatefullerton {
+   /* border-radius: 15px; */
+    max-height: 100vh;
+    width: 55%;
+}
+
+#csuf p {
+    padding-top: 15px;
+    font-size: 20px;
+    font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 450;
+    text-align: center;
+    max-width: 50vw;
+    color: rgb(90, 65, 3);
+}
+
+
+#uci h2 {
+	padding-top: 40px;
+    padding-bottom: 5px;
+    font-size: 50px;
+    color: rgb(218, 158, 81);
+    font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 450;
+    text-align: center;
+}
+
+#uCIrvine {
+    border-radius: 15px;
+    max-height: 100vh;
+    width: 55%;
+}
+
+#uci p {
+    padding-top: 15px;
+    font-size: 20px;
+    font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 450;
+    text-align: center;
+    max-width: 50vw;
+    color: rgb(90, 65, 3);
+}
+
+
+
 #foodforthought h2 {
     padding-top: 40px;
     padding-bottom: 5px;
@@ -119,6 +175,57 @@ html {
     color: rgb(90, 65, 3);
 }
 
+#dayPlanner h2 {
+	padding-top: 40px;
+    padding-bottom: 5px;
+    font-size: 50px;
+    font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 450;
+    text-align: center;
+	color: #17ad17;
+}
+
+#workDayPlanner {
+	border-radius: 15px;
+    width: 100%;
+}
+
+
+#dayPlanner p {
+	padding-top: 15px;
+    font-size: 20px;
+    font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 450;
+    text-align: center;
+    max-width: 50vw;
+    color: rgb(90, 65, 3);
+}
+
+#passwordGenerator h2{
+	padding-top: 40px;
+    padding-bottom: 5px;
+    font-size: 50px;
+    font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 450;
+    text-align: center;
+	color: rgb(83, 79, 79);
+}
+
+#pwgen {
+	border-radius: 15px;
+    width: 100%;
+}
+
+
+#passwordGenerator p {
+	padding-top: 15px;
+    font-size: 20px;
+    font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 450;
+    text-align: center;
+    max-width: 50vw;
+    color: rgb(90, 65, 3);
+}
 
 .container {
 	/* width: 100vw; */
@@ -378,11 +485,10 @@ html {
 
 /* End Keyframes */
 
-/* #calstatefullerton {
-	width: 30vw;
-	height: 50vh
-} */
-
+#date {
+	font-size: 2em;
+	color: rgb(83, 54, 212)
+}
 
 .img2 {
 	height: 55%
@@ -464,7 +570,13 @@ html {
 	font-weight: 500;
 } 
 
+.workdayplanner h2 {
+	color: black
+}
 
+.pwgen he {
+	color: black
+}
 
 /* Media Query For Desktop */
 @media only screen and (min-width: 1216px) {
@@ -503,6 +615,10 @@ html {
 	font-size: 49.5px;
 }
 
+#uci p{
+	font-size: 16.6px;
+}
+
 }
 
 @media only screen and (max-width: 813px) {
@@ -530,8 +646,117 @@ html {
 	#weatherdash h2{
 		font-size: 49.5px;
 	}
+
+	#dayPlanner h2{
+		font-size: 45px;
+	}
+
+	#dayPlanner p {
+		max-width: 100%;
+	}
+
+	#passwordGenerator h2 {
+		font-size: 40px;
+	}
 	
+	#passwordGenerator p {
+		max-width: 100%;
+	}
 }
+
+@media only screen and (max-width: 1170px) {
+
+.time {
+	padding-top: 10px;
+	text-align: center;
+}
+#date {
+	font-size: 1.5em;
+}
+
+}
+
+@media only screen and (max-width: 929px) {
+	
+	#passwordGenerator h2 {
+		font-size: 49.5px;
+	}
+
+}
+
+@media only screen and (max-width: 920px) {
+	
+	#passwordGenerator h2 {
+		font-size: 49px;
+	}
+
+}
+
+@media only screen and (max-width: 914px) {
+	
+	#passwordGenerator h2 {
+		font-size: 49px;
+	}
+
+}
+
+@media only screen and (max-width: 912px) {
+
+#uci p{
+	font-size: 18.5px;
+}
+}
+
+
+@media only screen and (max-width: 910px) {
+	
+	#passwordGenerator h2 {
+		font-size: 48.5px;
+	}
+
+}
+
+@media only screen and (max-width: 901px) {
+	
+	#passwordGenerator h2 {
+		font-size: 48px;
+	}
+
+}
+
+@media only screen and (max-width: 892px) {
+	
+	#passwordGenerator h2 {
+		font-size: 47.5px;
+	}
+
+}
+
+@media only screen and (max-width: 883px) {
+	
+	#passwordGenerator h2 {
+		font-size: 47px;
+	}
+
+}
+
+@media only screen and (max-width: 874px) {
+	
+	#passwordGenerator h2 {
+		font-size: 46px;
+	}
+
+}
+
+
+@media only screen and (max-width: 857px) {
+	
+	#passwordGenerator h2 {
+		font-size: 45.8px;
+	}
+
+}
+
 
 @media only screen and (max-width: 781px) {
 
@@ -543,6 +768,14 @@ html {
 
 @media only screen and (max-width: 768px) {
 
+
+	#csuf P {
+		max-width: 100%;
+	}
+
+	#uci p {
+		max-width: 100%;
+	}
 	#weatherdash p {
 		max-width: 100%;
 	}
@@ -705,6 +938,22 @@ html {
 	}
 
 	#codingquiz p {
+		font-size: 15px;
+	}
+
+	#dayPlanner h2 {
+		font-size: 30px
+	}
+
+	#dayplanner p {
+		font-size: 15px;
+	}
+
+	#passwordGenerator h2 {
+		font-size: 30px;
+	}
+	
+	#passwordGenerator p {
 		font-size: 15px;
 	}
 }

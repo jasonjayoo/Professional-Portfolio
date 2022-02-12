@@ -16,3 +16,14 @@ menu_item.forEach((item) => {
 		mobile_menu.classList.toggle('active');
 	});
 });
+
+$('#date').text(moment().format('LLLL'));
+
+function refresh(){
+	var time = setInterval(function () {
+		$('#date').text(moment().format('LLLL'));
+	},5000); 
+	time;
+};
+
+refresh()
