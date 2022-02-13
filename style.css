@@ -341,7 +341,6 @@ html {
 	letter-spacing: 50px;
 	z-index: -1;
 	transition: 0.3s ease letter-spacing;
-	border-radius: 0%;
 }
 #header .nav-list ul li:hover a::after {
 	transform: translate(-50%, -50%) scale(1);
