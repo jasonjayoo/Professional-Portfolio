@@ -36,6 +36,11 @@ Even numbered week homework assignment. Update Profession Portfolio to include F
 <br>
 <br>
 
+** Go to <a href="https://watch.screencastify.com/v/Sp0T3S8ZLpgvsWDSm3Ya" target="_blank">Video Demo</a> In order to view demo video of the website. 
+
+<br>
+<br>
+
 ## Usage: screenshots - (Highlighted Title(s) = a hyperlink to the direct image)
 
 <br>
@@ -194,4 +199,8 @@ Click [here](https://github.com/jasonjayoo/Professional-Portfolio) to go to my P
 ## URL (Published Webpage):
 
 <a href="https://jasonjayoo.github.io/Professional-Portfolio/" target="_blank">Professional-Portfolio</a>
+
+## Video Demo (GIF):
+
+<a href="https://watch.screencastify.com/v/Sp0T3S8ZLpgvsWDSm3Ya" target="_blank">Video Demo</a>
 
