@@ -585,7 +585,7 @@ html {
 	box-shadow: 0px 0px 8px 3px #0000002c;
 	transition: 0.3s ease box-shadow;
 	/* background-image: url("https://getwallpapers.com/wallpaper/full/0/b/7/465056.jpg"); */
-	background-image: url(images/bgimg16.jpg);
+	background-image: url(images/bgimg24.jpg);
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-position: cover;
@@ -605,11 +605,11 @@ html {
 	font-size: 2.5rem;
 	font-weight: 500;
 	margin-bottom: 5px;
-	color: rgb(1, 253, 240);
+	color: rgb(4, 248, 248);
 }
 
 a {
-	color: #2882f7;
+	color: whitesmoke;
 }
 
 .contact-info h2 {
