@@ -14,18 +14,18 @@ Even numbered week homework assignment. Update Profession Portfolio to include F
 
 <br>
 
-- [Installation] (#installation)
-- [Usage] (#usage)
-- [Credits] (#credits)
-- [License] (#license)
-- [Badges] (#badges)
-- [Features] (#features)
-- [How] (#how to contribute)
-- [Criteria] (#criteria's met)
-- [HTML] (#html - details)
-- [CSS] (#css - details)
-- [URL] (#url (github repository))
-- [URL] (#url (published webpage))
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
+- [License](#license)
+- [Badges](#badges)
+- [Features](#features)
+- [How](#howtocontribute)
+- [Criteria](#criteria's met)
+- [HTML](#html - details)
+- [CSS](#css - details)
+- [URL](#url (github repository))
+- [URL](#url (published webpage))
 
 <br>
 
