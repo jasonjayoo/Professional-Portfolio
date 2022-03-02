@@ -18,6 +18,12 @@ html {
 .time {
 	padding-left: 7.4px;
 }
+
+h3 {
+	font-size: 20px;
+	color: blue
+
+}
 /* about section specs */
 #about {
     font-size: 50px;
